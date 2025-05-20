@@ -1,4 +1,4 @@
-# 💸 Streamlit Tip Calculator
+# 💸 Tip Calculator
 
 A simple web app built using [Streamlit](https://streamlit.io) to help you quickly calculate how much each person should pay when splitting a bill and leaving a tip.
 
