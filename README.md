@@ -13,7 +13,7 @@ A simple web app built using [Streamlit](https://streamlit.io) to help you quick
 - Streamlit 🧼
 
 ## 📺 Live Demo
-[Click here to try it out!](https://YOUR-USERNAME-tip-calculator-streamlit.streamlit.app/)
+[Click here to try it out!](https://tipcalculatorapp.streamlit.app/)
 
 
 ## 🛠️ How to Run Locally
