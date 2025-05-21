@@ -26,4 +26,4 @@ if st.button("Calculate"):
     
     # Display the result
     st.info(f"💸 Calculated Tip: ${tip_amount:.2f}")
-    st.success(f"Each person should pay: ${final_amount}")
+    st.success(f"Each person should pay: ${final_amount:.2f}")
