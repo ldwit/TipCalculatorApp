@@ -14,6 +14,9 @@ people = st.number_input("How many people will split the bill?", min_value=1, st
 
 # When the button is clicked, perform the calculation
 if st.button("Calculate"):
+    # Calculate Tip Amount
+    tip_amount = (tip / 100) * bill
+    
     # Calculate tip amount and total bill with tip
     bill_with_tip = bill + ((tip / 100) * bill)
     
@@ -22,4 +25,5 @@ if st.button("Calculate"):
     final_amount = round(bill_per_person, 2)
     
     # Display the result
+    st.info(f"💸 Calculated Tip: ${tip_amount:.2f}")
     st.success(f"Each person should pay: ${final_amount}")
