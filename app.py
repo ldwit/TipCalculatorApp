@@ -18,7 +18,7 @@ if st.button("Calculate"):
     tip_amount = (tip / 100) * bill
     
     # Calculate tip amount and total bill with tip
-    bill_with_tip = bill + ((tip / 100) * bill)
+    bill_with_tip = bill + tip_amount
     
     # Calculate the amount each person should pay
     bill_per_person = bill_with_tip / people
