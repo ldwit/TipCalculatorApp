@@ -21,7 +21,7 @@ A simple web app built using [Streamlit](https://streamlit.io) to help you quick
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/tip-calculator-streamlit.git
+git clone https://github.com/ldw16/tip-calculator-streamlit.git
 cd tip-calculator-streamlit
 ```
 
